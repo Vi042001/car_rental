@@ -13,5 +13,6 @@ A car rental website is an online platform that allows users to rent cars for pe
 
 
 ###                                                                     Home Page 🏡
-![home](https://github.com/Vi042001/car_rental/assets/124107319/016bce92-2e32-4b46-af9c-d9184c57b9dc)
+![localhost_3000_](https://github.com/Vi042001/car_rental/assets/124107319/19d9db2b-596f-4606-8733-cdc9d349eb5b)
+
 
