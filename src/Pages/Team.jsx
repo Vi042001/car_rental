@@ -11,7 +11,7 @@ import Person6 from "../images/team/6.png";
 function Team() {
   const teamPpl = [
     { img: Person1, name: "Luke Miller", job: "Salesman" },
-    { img: Person2, name: "Michael Diaz", job: "Business Owner" },
+    { img: Person2, name: "Virendra", job: "Business Owner" },
     { img: Person3, name: "Briana Ross", job: "Photographer" },
     { img: Person4, name: "Lauren Rivera", job: "Car Detailist" },
     { img: Person5, name: "Martin Rizz", job: "Mechanic" },
