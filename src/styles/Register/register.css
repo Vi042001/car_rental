@@ -1,0 +1,141 @@
+.registration-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group,
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.input-group input,
+.radio-group input {
+  margin-right: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b5bdb;
+}
+
+.registration-form p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.registration-form{
+width: 300px;
+
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+background-color: #f9f9f9;
+position: absolute;
+margin-top: 15%;
+margin-left: 40%;
+}
+
+.registration-form h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.input-group,
+.radio-group {
+margin-bottom: 15px;
+}
+
+.input-group input,
+.radio-group input {
+  margin-right: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b5bdb;
+}
+
+.registration-form p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.registration-form p a {
+  color: #4c6ef5;
+  text-decoration: none;
+}
+
+.registration-form p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .registration-form {
+    width: 70%;
+    margin: 50% auto;
+    padding: 30px;
+    text-align: center;
+    margin-left: 16%;
+  }
+
+  .input-group input {
+    width: calc(100% - 20px); /* Adjusted width for smaller screens */
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
