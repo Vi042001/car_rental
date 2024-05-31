@@ -26,6 +26,11 @@ const Register= () => {
   };
 
   return (
+    <div className="registration-page">
+      <div className="background-image"></div>
+
+
+
     <div className="registration-form">
       <h2>Registration</h2>
       <form onSubmit={handleSubmit}>
@@ -104,11 +109,12 @@ const Register= () => {
           </label>
         </div>
         <p>
-          By clicking Register, you agree on our <a href="/terms">terms and conditions</a>.
+          By clicking Register, you agree on our <a href="/Terms">terms and conditions</a>.
         </p>
         <button type="submit">Register</button>
       </form>
     </div>
+   </div>
   );
 };
 

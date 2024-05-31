@@ -9,6 +9,9 @@ import TestimonialsPage from "./Pages/TestimonialsPage";
 import Team from "./Pages/Team";
 import Contact from "./Pages/Contact";
 import Register from "./Pages/Register";
+import Sign from "./Pages/Sign";
+import Terms from "./Pages/Terms";
+
 
 function App() {
   return (
@@ -22,7 +25,9 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="contact" element={<Contact />} />
         <Route path="register" element={<Register/>} />
-      </Routes>
+        <Route path="sign" element={<Sign/>} />
+        <Route path="terms" element={<Terms/>} />
+        </Routes>
     </>
   );
 }
